@@ -230,17 +230,20 @@ and (max-width : 480px) {
     .first-row  {
         margin-top: 5em;
         text-align: center;
+        margin-left: -4%;
     }
 
     .second-row {
         margin-top: 2em;
         text-align: center;
+        margin-left: -4%;
     }
 
     .third-row {
         margin-top: 2em;
         margin-bottom: 5em;
         text-align: center;
+        margin-left: -4%;
     }
 }
 
@@ -248,7 +251,7 @@ and (max-width : 480px) {
     .works {
         .thumbnail {
             img {
-                padding-left: 10px;
+                padding-left: 0px;
             }
         }
     }
@@ -362,6 +365,16 @@ and (max-device-width : 480px) {
     }
 }
 
+@media screen and (max-width: 1225px) {
+    .about-section {
+        .about-info {
+            .about-paragraphs {
+                margin-bottom: 3em;
+            }
+        }
+    }
+}
+
 @media screen and (max-width: 1000px) {
     .about-section {
         .about-info {
@@ -420,14 +433,15 @@ and (max-device-width : 480px) {
     .social-icons {
         margin: 0 auto;
         text-align: center;
+        margin-left: -2%;
 
         ul {
-            margin: 4em 0 6em -1%;
+            margin: 4em 0 6em 0%;
         }
 
         li {
             display: inline;
-            margin-right: 2%;
+            padding-right: 10px;
 
             img {
                 opacity: .8;
@@ -451,7 +465,7 @@ and (max-width : 480px) {
 
         .social-icons {
             ul {
-                margin-left: -6%;
+                margin-left: -5%;
             }
         }
     }
