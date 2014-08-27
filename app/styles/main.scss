@@ -452,6 +452,27 @@ and (max-device-width : 480px) {
             }
         }
     }
+
+    .up-button {
+        img {
+            width: 3.5%;
+            opacity: .8;
+            background-color: white;
+            float: right;
+        }
+
+        img:hover {
+            opacity: 1;
+        }
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .contact-section {
+        .up-button {
+            img {display: none;}
+        }
+    }
 }
 
 @media only screen 
@@ -493,6 +514,10 @@ and (max-width : 480px) {
             font-size: 14px;
             float: right;
             margin: 3em 8% 3em 0;
+        }
+
+        a {
+            text-decoration: none;
         }
     }
 }
